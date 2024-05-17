@@ -1,0 +1,53 @@
+﻿@model IEnumerable<PrimeiroProjeto.Models.Funcionario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-sm btn-primary"> <i class="bi bi-person-plus-fill"> </i>Novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeFuncionario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReleaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cargo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeFuncionario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cargo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salario)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.FuncionarioID" class="btn btn-sm btn-primary"><i class="bi bi-pencil-fill"></i>Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.FuncionarioID" class="btn btn-sm btn-info"><i class="bi bi-file-text-fill"></i>Detalhes</a> |
+                    <a asp-action="Delete" asp-route-id="@item.FuncionarioID" class="btn btn-sm btn-danger"> <i class="bi bi-trash3"></i> Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

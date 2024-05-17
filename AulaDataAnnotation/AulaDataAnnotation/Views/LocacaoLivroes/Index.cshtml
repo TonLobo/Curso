@@ -1,0 +1,65 @@
+﻿@model IEnumerable<AulaDataAnnotation.Models.LocacaoLivro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-sm btn-info">Novo Aluguel</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeLivro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DtSaida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DtRetorno)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeLivro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtSaida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtRetorno)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.LocacaoLivroID" class="btn btn-sm btn-primary"> <i class="bi bi-pencil"></i> Editar</a>|
+                <a asp-action="Details" asp-route-id="@item.LocacaoLivroID" class="btn btn-sm btn-info">Detalhes</a> |
+                    <a asp-action="Delete" asp-route-id="@item.LocacaoLivroID" class="btn btn-sm btn-danger">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

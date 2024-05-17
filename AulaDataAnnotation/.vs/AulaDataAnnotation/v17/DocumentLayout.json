@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|c:\\users\\user\\desktop\\aspmvc\\auladataannotation\\auladataannotation\\models\\locacaolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|solutionrelative:auladataannotation\\models\\locacaolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|c:\\users\\user\\desktop\\aspmvc\\auladataannotation\\auladataannotation\\controllers\\locacaolivroescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|solutionrelative:auladataannotation\\controllers\\locacaolivroescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|c:\\users\\user\\desktop\\aspmvc\\auladataannotation\\auladataannotation\\views\\locacaolivroes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|solutionrelative:auladataannotation\\views\\locacaolivroes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|c:\\users\\user\\desktop\\aspmvc\\auladataannotation\\auladataannotation\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|solutionrelative:auladataannotation\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|c:\\users\\user\\desktop\\aspmvc\\auladataannotation\\auladataannotation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|solutionrelative:auladataannotation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|c:\\users\\user\\desktop\\aspmvc\\auladataannotation\\auladataannotation\\views\\locacaolivroes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|solutionrelative:auladataannotation\\views\\locacaolivroes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Migrations\\20240515002459_TblLivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AulaDataAnnotation\\Migrations\\20240515002459_TblLivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|c:\\users\\user\\desktop\\aspmvc\\auladataannotation\\auladataannotation\\data\\auladataannotationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|solutionrelative:auladataannotation\\data\\auladataannotationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|c:\\users\\user\\desktop\\aspmvc\\auladataannotation\\auladataannotation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|solutionrelative:auladataannotation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|c:\\users\\user\\desktop\\aspmvc\\auladataannotation\\auladataannotation\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|solutionrelative:auladataannotation\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|c:\\users\\user\\desktop\\aspmvc\\auladataannotation\\auladataannotation\\migrations\\20240514233729_tblfuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5A5D74-1761-43D3-A902-356D8F9C4071}|AulaDataAnnotation\\AulaDataAnnotation.csproj|solutionrelative:auladataannotation\\migrations\\20240514233729_tblfuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Views\\LocacaoLivroes\\Index.cshtml",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\Views\\LocacaoLivroes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Views\\LocacaoLivroes\\Index.cshtml",
+              "RelativeToolTip": "AulaDataAnnotation\\Views\\LocacaoLivroes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T00:37:49.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Views\\LocacaoLivroes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\Views\\LocacaoLivroes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Views\\LocacaoLivroes\\Edit.cshtml",
+              "RelativeToolTip": "AulaDataAnnotation\\Views\\LocacaoLivroes\\Edit.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T00:29:16.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240515002459_TblLivro.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Migrations\\20240515002459_TblLivro.cs",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\Migrations\\20240515002459_TblLivro.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Migrations\\20240515002459_TblLivro.cs",
+              "RelativeToolTip": "AulaDataAnnotation\\Migrations\\20240515002459_TblLivro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T00:24:59.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocacaoLivroesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Controllers\\LocacaoLivroesController.cs",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\Controllers\\LocacaoLivroesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Controllers\\LocacaoLivroesController.cs",
+              "RelativeToolTip": "AulaDataAnnotation\\Controllers\\LocacaoLivroesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T00:24:14.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocacaoLivro.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Models\\LocacaoLivro.cs",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\Models\\LocacaoLivro.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Models\\LocacaoLivro.cs*",
+              "RelativeToolTip": "AulaDataAnnotation\\Models\\LocacaoLivro.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T00:19:33.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AulaDataAnnotation\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwB8AAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T23:38:00.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Models\\Funcionario.cs",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\Models\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Models\\Funcionario.cs",
+              "RelativeToolTip": "AulaDataAnnotation\\Models\\Funcionario.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T23:31:22.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240514233729_TblFuncionario.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Migrations\\20240514233729_TblFuncionario.cs",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\Migrations\\20240514233729_TblFuncionario.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Migrations\\20240514233729_TblFuncionario.cs",
+              "RelativeToolTip": "AulaDataAnnotation\\Migrations\\20240514233729_TblFuncionario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T23:37:29.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AulaDataAnnotationContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Data\\AulaDataAnnotationContext.cs",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\Data\\AulaDataAnnotationContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Data\\AulaDataAnnotationContext.cs",
+              "RelativeToolTip": "AulaDataAnnotation\\Data\\AulaDataAnnotationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T23:34:36.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\appsettings.json",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\appsettings.json",
+              "RelativeToolTip": "AulaDataAnnotation\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-14T23:34:04.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FuncionariosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Controllers\\FuncionariosController.cs",
+              "RelativeDocumentMoniker": "AulaDataAnnotation\\Controllers\\FuncionariosController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\AulaDataAnnotation\\AulaDataAnnotation\\Controllers\\FuncionariosController.cs",
+              "RelativeToolTip": "AulaDataAnnotation\\Controllers\\FuncionariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T23:33:23.141Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

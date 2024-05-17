@@ -1,0 +1,16 @@
+﻿@model Produto
+
+<h2>Adicionar Cliente</h2>
+
+<form asp-action="Create" method="post">
+    <label class="control-label">Nome Produto</label>
+    <input class="form-control" asp-for="NomeProduto" />
+    <span asp-validation-for="NomeProduto" class="text-danger"></span>
+    <br />
+
+    <label class="control-label">Marca</label>
+    <input class="form-control" asp-for="Marca" />
+    <span asp-validation-for="Marca" class="text-danger"></span>
+    <button type="submit" class="btn btn-outline-primary">Salvar</button>
+
+</form>

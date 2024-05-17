@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+
+    int idade = int.Parse(ViewData["Idade"].ToString());
+}
+
+<!-- comentário html -->
+
+<h1>@ViewData["Saudacao"]</h1>
+Sua idade é de:  @ViewData["Idade"]
+<hr />
+
+@if (idade > 18)
+{
+    <h3 class="alert alert-success">Pode entrar</h3>
+}
+else
+{
+    <h3 class="alert alert-danger">Não pode entrar</h3>
+}
+<hr />
+<ul>
+    @for (int i = 0; i<= (int)ViewData["Idade"]!; i++)
+    {
+        <li>@ViewData["Saudacao"]</li>
+    }
+    
+</ul>

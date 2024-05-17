@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\user\\desktop\\aspmvc\\primeiroprojeto\\primeiroprojeto\\views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\user\\desktop\\aspmvc\\primeiroprojeto\\primeiroprojeto\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\user\\desktop\\aspmvc\\primeiroprojeto\\primeiroprojeto\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\user\\desktop\\aspmvc\\primeiroprojeto\\primeiroprojeto\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\user\\desktop\\aspmvc\\primeiroprojeto\\primeiroprojeto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\user\\desktop\\aspmvc\\primeiroprojeto\\primeiroprojeto\\migrations\\20240514004837_tblfunionario5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\migrations\\20240514004837_tblfunionario5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\user\\desktop\\aspmvc\\primeiroprojeto\\primeiroprojeto\\migrations\\20240514004555_tblfunionario4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AEF0DF-63DF-4E78-9F2E-DC6C7245D036}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\migrations\\20240514004555_tblfunionario4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240514004837_TblFunionario5.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Migrations\\20240514004837_TblFunionario5.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Migrations\\20240514004837_TblFunionario5.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Migrations\\20240514004837_TblFunionario5.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\Migrations\\20240514004837_TblFunionario5.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:48:37.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Models\\Funcionario.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Models\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Models\\Funcionario.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\Models\\Funcionario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:47:15.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240514004555_TblFunionario4.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Migrations\\20240514004555_TblFunionario4.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Migrations\\20240514004555_TblFunionario4.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Migrations\\20240514004555_TblFunionario4.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\Migrations\\20240514004555_TblFunionario4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:45:55.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Views\\Funcionarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Views\\Funcionarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Views\\Funcionarios\\Index.cshtml",
+              "RelativeToolTip": "PrimeiroProjeto\\Views\\Funcionarios\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAACSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T00:27:17.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "PrimeiroProjeto\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T00:24:49.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PrimeiroProjeto\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T00:21:54.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FuncionariosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Controllers\\FuncionariosController.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Controllers\\FuncionariosController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\PrimeiroProjeto\\PrimeiroProjeto\\Controllers\\FuncionariosController.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\Controllers\\FuncionariosController.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:06:56.688Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
