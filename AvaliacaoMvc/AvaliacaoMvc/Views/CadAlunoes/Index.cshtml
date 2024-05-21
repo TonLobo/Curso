@@ -9,6 +9,16 @@
 <p>
     <a asp-action="Create" class="btn btn-sm btn-success"><i class="bi bi-person-plus-fill"></i>Novo Aluno</a>
 </p>
+
+<form asp-controller="CadAlunoes" asp-action="Index">
+    <p>
+        Aluno: <input type="text" name="searchString" />
+        <input type="submit" value="Filtrar" />
+    </p>
+
+
+</form>
+
 <table class="table">
     <thead>
         <tr>

@@ -20,9 +20,21 @@ namespace AvaliacaoMvc.Controllers
         }
 
         // GET: CadAlunoes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.CadAluno.ToListAsync());
+            if (_context.CadAluno == null)
+            {
+                return Problem("Tabela Inexistente");
+            }
+
+            var aluno = from cad in _context.CadAluno select cad;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                aluno = aluno.Where(s => s.Nome!.Contains(searchString));
+            }
+            return View(await aluno.ToListAsync());
+            //return View(await _context.CadAluno.ToListAsync());
         }
 
         // GET: CadAlunoes/Details/5

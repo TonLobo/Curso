@@ -250,3 +250,4 @@ C:\Users\User\Desktop\AspMVC\AvaliacaoMvc\AvaliacaoMvc\obj\Debug\net8.0\refint\A
 C:\Users\User\Desktop\AspMVC\AvaliacaoMvc\AvaliacaoMvc\obj\Debug\net8.0\AvaliacaoMvc.pdb
 C:\Users\User\Desktop\AspMVC\AvaliacaoMvc\AvaliacaoMvc\obj\Debug\net8.0\AvaliacaoMvc.genruntimeconfig.cache
 C:\Users\User\Desktop\AspMVC\AvaliacaoMvc\AvaliacaoMvc\obj\Debug\net8.0\ref\AvaliacaoMvc.dll
+C:\Users\User\Desktop\AspMVC\AvaliacaoMvc\AvaliacaoMvc\obj\Debug\net8.0\AvaliacaoMvc.sourcelink.json

@@ -14,6 +14,6 @@ namespace AvaliacaoMvc.Data
         {
         }
 
-        public DbSet<AvaliacaoMvc.Models.CadAluno> CadAluno { get; set; } = default!;
+        public DbSet<CadAluno> CadAluno { get; set; } = default!;
     }
 }
