@@ -11,5 +11,8 @@ namespace AvaliacaoMvc.Models
         public string? Endereco { get; set; }
         public string? Cep { get; set; }
         public string? Turma { get; set; }
+        public decimal Mensalidade { get; set; }
+		[DataType(DataType.Date)]
+		public DateTime DiaPagto { get; set; }
     }
 }

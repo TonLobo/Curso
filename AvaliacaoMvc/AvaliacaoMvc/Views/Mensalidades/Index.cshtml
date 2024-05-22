@@ -1,0 +1,97 @@
+﻿@model IEnumerable<AvaliacaoMvc.Models.CadAluno>
+
+@{
+    ViewData["Title"] = "Index";
+    var totalMensalidade = Model.Sum(m => m.Mensalidade);
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-sm btn-success"><i class="bi bi-person-plus-fill"></i>Novo Aluno</a>
+</p>
+
+<form asp-controller="Mensalidades" asp-action="Index" method="get">
+    <div class="row">
+        <div class="col">
+            <label>Data Inicial</label>
+            <input type="date" name="startDate" class="form-control" />
+        </div>
+        <div class="col">
+            <label>Data Final</label>
+            <input type="date" name="endDate" class="form-control" />
+        </div>
+        <div class="col">
+            <input type="submit" value="filtrar" class="btn btn-sm btn-primary" />
+        </div>
+    </div>
+
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Turma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mensalidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiaPagto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Idade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Turma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mensalidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaPagto)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.CadAlunoID" class="btn btn-sm btn-primary"><i class="bi bi-pencil-fill"></i>Editar Cadastro</a> |
+                    <a asp-action="Details" asp-route-id="@item.CadAlunoID" class="btn btn-sm btn-info"><i class="bi bi-file-earmark-text-fill"></i>Detalhes do Aluno</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CadAlunoID" class="btn btn-sm btn-danger"><i class="bi bi-trash3-fill"></i>Excluir Cadastro</a>
+            </td>
+        </tr>
+}
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>
+                <strong>Total Mensal:</strong> @totalMensalidade.ToString()
+            </td>
+        </tr>
+
+    </tfoot>
+</table>
