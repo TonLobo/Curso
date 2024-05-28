@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|c:\\users\\user\\desktop\\aspmvc\\minhaapi\\minhaapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|c:\\users\\user\\desktop\\aspmvc\\minhaapi\\minhaapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|c:\\users\\user\\desktop\\aspmvc\\minhaapi\\minhaapi\\minhaapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\minhaapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|c:\\users\\user\\desktop\\aspmvc\\minhaapi\\minhaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|c:\\users\\user\\desktop\\aspmvc\\minhaapi\\minhaapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|c:\\users\\user\\desktop\\aspmvc\\minhaapi\\minhaapi\\minhaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F75AD5F-3741-4A64-9ECC-22FAB1BE30D6}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\minhaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "MinhaApi\\Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T22:46:20.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\WeatherForecast.cs",
+              "RelativeToolTip": "MinhaApi\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T22:27:41.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "MinhaApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T22:23:24.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MinhaApi",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\MinhaApi.csproj",
+              "RelativeDocumentMoniker": "MinhaApi\\MinhaApi.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\MinhaApi.csproj",
+              "RelativeToolTip": "MinhaApi\\MinhaApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T22:22:23.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\Program.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\Program.cs",
+              "RelativeToolTip": "MinhaApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T22:20:25.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MinhaApi.http",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\MinhaApi.http",
+              "RelativeDocumentMoniker": "MinhaApi\\MinhaApi.http",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\MinhaApi\\MinhaApi\\MinhaApi.http",
+              "RelativeToolTip": "MinhaApi\\MinhaApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-27T22:20:21.895Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

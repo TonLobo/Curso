@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{70B84AE2-3996-4238-8701-301CF2DA0F63}|ImageGallery\\ImageGallery.csproj|solutionrelative:imagegallery\\controllers\\imagemodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70B84AE2-3996-4238-8701-301CF2DA0F63}|ImageGallery\\ImageGallery.csproj|c:\\users\\user\\desktop\\aspmvc\\imagegallery\\imagegallery\\views\\imagemodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70B84AE2-3996-4238-8701-301CF2DA0F63}|ImageGallery\\ImageGallery.csproj|solutionrelative:imagegallery\\views\\imagemodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70B84AE2-3996-4238-8701-301CF2DA0F63}|ImageGallery\\ImageGallery.csproj|c:\\users\\user\\desktop\\aspmvc\\imagegallery\\imagegallery\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70B84AE2-3996-4238-8701-301CF2DA0F63}|ImageGallery\\ImageGallery.csproj|solutionrelative:imagegallery\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70B84AE2-3996-4238-8701-301CF2DA0F63}|ImageGallery\\ImageGallery.csproj|c:\\users\\user\\desktop\\aspmvc\\imagegallery\\imagegallery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70B84AE2-3996-4238-8701-301CF2DA0F63}|ImageGallery\\ImageGallery.csproj|solutionrelative:imagegallery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70B84AE2-3996-4238-8701-301CF2DA0F63}|ImageGallery\\ImageGallery.csproj|c:\\users\\user\\desktop\\aspmvc\\imagegallery\\imagegallery\\views\\imagemodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70B84AE2-3996-4238-8701-301CF2DA0F63}|ImageGallery\\ImageGallery.csproj|solutionrelative:imagegallery\\views\\imagemodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,30 +26,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\ImageGallery\\ImageGallery\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ImageGallery\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\ImageGallery\\ImageGallery\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ImageGallery\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T00:27:04.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\ImageGallery\\ImageGallery\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ImageGallery\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\ImageGallery\\ImageGallery\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ImageGallery\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T23:56:52.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\ImageGallery\\ImageGallery\\Views\\ImageModels\\Index.cshtml",
               "RelativeDocumentMoniker": "ImageGallery\\Views\\ImageModels\\Index.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\ImageGallery\\ImageGallery\\Views\\ImageModels\\Index.cshtml",
               "RelativeToolTip": "ImageGallery\\Views\\ImageModels\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-22T23:36:16.96Z",
               "EditorCaption": ""
@@ -58,7 +83,7 @@
               "RelativeDocumentMoniker": "ImageGallery\\Controllers\\ImageModelsController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\ImageGallery\\ImageGallery\\Controllers\\ImageModelsController.cs",
               "RelativeToolTip": "ImageGallery\\Controllers\\ImageModelsController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwCgAAAA4AAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAswCUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T23:33:17.697Z",
               "EditorCaption": ""

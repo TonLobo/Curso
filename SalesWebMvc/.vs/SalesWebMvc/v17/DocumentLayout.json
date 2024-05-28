@@ -46,8 +46,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -58,8 +66,7 @@
               "RelativeToolTip": "SalesWebMvc\\Controllers\\SellersController.cs",
               "ViewState": "AQIAAIsAAAAAAAAAAAAIwKYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T23:22:26.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T23:22:26.796Z"
             },
             {
               "$type": "Document",
@@ -144,8 +151,7 @@
               "RelativeToolTip": "SalesWebMvc\\Models\\Seller.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAIwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T22:18:47.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T22:18:47.979Z"
             },
             {
               "$type": "Document",

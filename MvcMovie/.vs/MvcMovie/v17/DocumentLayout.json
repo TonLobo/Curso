@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\AspMVC\\MvcMovie\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{61A20322-16DD-4CC5-B0D5-5DBF90975C08}|MvcMovie\\MvcMovie.csproj|c:\\users\\user\\desktop\\aspmvc\\mvcmovie\\mvcmovie\\controllers\\administratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A20322-16DD-4CC5-B0D5-5DBF90975C08}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\controllers\\administratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61A20322-16DD-4CC5-B0D5-5DBF90975C08}|MvcMovie\\MvcMovie.csproj|c:\\users\\user\\desktop\\aspmvc\\mvcmovie\\mvcmovie\\views\\administrators\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{61A20322-16DD-4CC5-B0D5-5DBF90975C08}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\administrators\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61A20322-16DD-4CC5-B0D5-5DBF90975C08}|MvcMovie\\MvcMovie.csproj|c:\\users\\user\\desktop\\aspmvc\\mvcmovie\\mvcmovie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{61A20322-16DD-4CC5-B0D5-5DBF90975C08}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61A20322-16DD-4CC5-B0D5-5DBF90975C08}|MvcMovie\\MvcMovie.csproj|c:\\users\\user\\desktop\\aspmvc\\mvcmovie\\mvcmovie\\controllers\\administratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A20322-16DD-4CC5-B0D5-5DBF90975C08}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\controllers\\administratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61A20322-16DD-4CC5-B0D5-5DBF90975C08}|MvcMovie\\MvcMovie.csproj|c:\\users\\user\\desktop\\aspmvc\\mvcmovie\\mvcmovie\\views\\administrators\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,11 +30,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\MvcMovie\\MvcMovie\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MvcMovie\\Views\\Shared\\_Layout.cshtml",
@@ -42,31 +50,30 @@
               "RelativeToolTip": "MvcMovie\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T23:59:16.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T23:59:16.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\MvcMovie\\MvcMovie\\Views\\Administrators\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcMovie\\Views\\Administrators\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\MvcMovie\\MvcMovie\\Views\\Administrators\\Index.cshtml*",
-              "RelativeToolTip": "MvcMovie\\Views\\Administrators\\Index.cshtml*",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\MvcMovie\\MvcMovie\\Views\\Administrators\\Index.cshtml",
+              "RelativeToolTip": "MvcMovie\\Views\\Administrators\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-21T23:14:34.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AdministratorsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\MvcMovie\\MvcMovie\\Controllers\\AdministratorsController.cs",
               "RelativeDocumentMoniker": "MvcMovie\\Controllers\\AdministratorsController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\MvcMovie\\MvcMovie\\Controllers\\AdministratorsController.cs",
               "RelativeToolTip": "MvcMovie\\Controllers\\AdministratorsController.cs",
-              "ViewState": "AQIAAIIAAAAAAAAAAAAwwCUAAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T23:14:05.486Z",
               "EditorCaption": ""
@@ -81,8 +88,7 @@
               "RelativeToolTip": "MvcMovie\\Views\\Administrators\\Edit.cshtml",
               "ViewState": "AQIAACQAAAAAAAAAAAAAADAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T23:11:34.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T23:11:34.046Z"
             },
             {
               "$type": "Document",
@@ -94,8 +100,7 @@
               "RelativeToolTip": "MvcMovie\\Views\\Administrators\\Create.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T23:11:32.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T23:11:32.454Z"
             }
           ]
         }
