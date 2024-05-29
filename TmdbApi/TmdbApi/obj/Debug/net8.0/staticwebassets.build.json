@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vBk+7bScmXeUKdq4YkAxNZHHv4MsfjN/vvyWQOX+kN0=",
+  "Source": "TmdbApi",
+  "BasePath": "_content/TmdbApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

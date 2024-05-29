@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|c:\\users\\user\\desktop\\aspmvc\\tmdbapi\\tmdbapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|solutionrelative:tmdbapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|c:\\users\\user\\desktop\\aspmvc\\tmdbapi\\tmdbapi\\services\\tmdbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|solutionrelative:tmdbapi\\services\\tmdbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|c:\\users\\user\\desktop\\aspmvc\\tmdbapi\\tmdbapi\\views\\searchresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|solutionrelative:tmdbapi\\views\\searchresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|c:\\users\\user\\desktop\\aspmvc\\tmdbapi\\tmdbapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|solutionrelative:tmdbapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|c:\\users\\user\\desktop\\aspmvc\\tmdbapi\\tmdbapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|solutionrelative:tmdbapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|c:\\users\\user\\desktop\\aspmvc\\tmdbapi\\tmdbapi\\models\\tmdbresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|solutionrelative:tmdbapi\\models\\tmdbresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|c:\\users\\user\\desktop\\aspmvc\\tmdbapi\\tmdbapi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|solutionrelative:tmdbapi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|c:\\users\\user\\desktop\\aspmvc\\tmdbapi\\tmdbapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98E1C895-3E76-4DEF-A069-DDBCD1C2E385}|TmdbApi\\TmdbApi.csproj|solutionrelative:tmdbapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TmdbApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TmdbApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-29T00:28:36.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "TmdbApi\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "TmdbApi\\Controllers\\MoviesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:14:28.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Views\\SearchResult.cshtml",
+              "RelativeDocumentMoniker": "TmdbApi\\Views\\SearchResult.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Views\\SearchResult.cshtml",
+              "RelativeToolTip": "TmdbApi\\Views\\SearchResult.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T00:44:15.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Program.cs",
+              "RelativeDocumentMoniker": "TmdbApi\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Program.cs",
+              "RelativeToolTip": "TmdbApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:16:54.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TMDBResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Models\\TMDBResponse.cs",
+              "RelativeDocumentMoniker": "TmdbApi\\Models\\TMDBResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Models\\TMDBResponse.cs",
+              "RelativeToolTip": "TmdbApi\\Models\\TMDBResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:16:30.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "TmdbApi\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Models\\Movie.cs",
+              "RelativeToolTip": "TmdbApi\\Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:16:07.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TMDBServices.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Services\\TMDBServices.cs",
+              "RelativeDocumentMoniker": "TmdbApi\\Services\\TMDBServices.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\Services\\TMDBServices.cs",
+              "RelativeToolTip": "TmdbApi\\Services\\TMDBServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:15:30.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TmdbApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\TmdbApi\\TmdbApi\\appsettings.json",
+              "RelativeToolTip": "TmdbApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-29T00:36:51.363Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
