@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Loja.Data;
+using Loja.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<LojaContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LojaContext") ?? throw new InvalidOperationException("Connection string 'LojaContext' not found.")));

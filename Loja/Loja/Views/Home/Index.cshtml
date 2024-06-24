@@ -1,8 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    var images = ViewBag.Images as List<string>;
 }
 
 <div class="text-center">
-    <h1 class="display-4">Bem Vindo a Loja de Carro</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h2>Bem Vindo a Loja TheCar</h2>
+    <p>
+        <a href="@Url.Action("Login", "Account")">Acesso</a>
+    </p>
 </div>
+
+
+
+
+
+

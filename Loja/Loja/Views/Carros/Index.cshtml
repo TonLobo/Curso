@@ -4,11 +4,21 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Carros</h1>
 
 <p>
     <a asp-action="Create" class="btn btn-sm btn-success"> <i class="bi bi-person-plus"></i>Novo Carro</a>
 </p>
+
+<form asp-controller="Carros" asp-action="Index">
+    <p>
+        Marca: <input type="text" name="searchString" />
+        <input type="submit" value="Filtrar" />
+    </p>
+
+
+</form>
+
 <table class="table">
     <thead>
         <tr>
@@ -57,9 +67,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Estoque)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Url)
-            </td>
+             <td>
+                <img src="@Url.Content("~/img/" + @item.Url)" alt="@item.Url" height="100px" />
+             </td>
             <td>
                     <a asp-action="Edit" asp-route-id="@item.CarroId" class="btn btn-sm btn-info"> <i class="bi bi-journal-text"></i>Editar</a> |
                     <a asp-action="Details" asp-route-id="@item.CarroId" class="btn btn-sm btn-primary"> <i class="bi bi-pencil"></i>Detalhes</a> |

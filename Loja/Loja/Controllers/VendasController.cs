@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Loja.Data;
 using Loja.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Loja.Controllers
 {
@@ -20,10 +21,26 @@ namespace Loja.Controllers
         }
 
         // GET: Vendas
-        public async Task<IActionResult> Index()
+
+        /*public async Task<IActionResult> Index()
         {
             var lojaContext = _context.Venda.Include(v => v.Carro).Include(v => v.Cliente).Include(v => v.Vendedor);
             return View(await lojaContext.ToListAsync());
+        }*/
+        public async Task<IActionResult> Index(DateTime? startDate, DateTime? endDate)
+        {
+            var vendas = from m in _context.Venda select m; //select * from movie
+
+            if (startDate.HasValue)
+            {
+                vendas = vendas.Where(s => s.DataEntrega >= startDate.Value); // where ReleaseDate >= startDate
+            }
+            if (endDate.HasValue)
+            {
+                vendas = vendas.Where(s => s.DataEntrega <= endDate.Value); // where ReleaseDate >= endDate
+            }
+
+            return View(await vendas.ToListAsync());
         }
 
         // GET: Vendas/Details/5

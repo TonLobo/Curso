@@ -4,11 +4,21 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Cadastro Clientes</h1>
 
 <p>
     <a asp-action="Create" class="btn btn-sm btn-success"> <i class="bi bi-person-plus"></i>Novo Cliente</a>
 </p>
+
+<form asp-controller="Clientes" asp-action="Index">
+    <p>
+        Nome: <input type="text" name="searchString" />
+        <input type="submit" value="Filtrar" />
+    </p>
+
+
+</form>
+
 <table class="table">
     <thead>
         <tr>

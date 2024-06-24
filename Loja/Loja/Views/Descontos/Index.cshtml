@@ -1,14 +1,25 @@
 ﻿@model IEnumerable<Loja.Models.Desconto>
 
+
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Desconto</h1>
 
 <p>
     <a asp-action="Create" class="btn btn-sm btn-success"> <i class="bi bi-person-plus"></i>Novo Desconto</a>
 </p>
+
+<form asp-controller="Descontos" asp-action="Index">
+    <p>
+        Banco: <input type="text" name="searchString" />
+        <input type="submit" value="Filtrar" />
+    </p>
+
+
+</form>
+
 <table class="table">
     <thead>
         <tr>
@@ -28,7 +39,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Venda.VendaId)
+                @Html.DisplayFor(modelItem => item.Venda.Cliente)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ValorDesconto)

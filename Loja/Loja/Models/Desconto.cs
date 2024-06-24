@@ -10,5 +10,6 @@ namespace Loja.Models
         [Display(Name = "Valor do Desconto")]
         public decimal ValorDesconto { get; set; }
         public bool Aprovado { get; set; }
+
     }
 }

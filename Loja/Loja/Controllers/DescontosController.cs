@@ -17,13 +17,34 @@ namespace Loja.Controllers
         public DescontosController(LojaContext context)
         {
             _context = context;
+
+        }
+        [AuthorizeRole("Gerente")]
+        public IActionResult Desconto()
+        {
+            return View();
         }
 
         // GET: Descontos
-        public async Task<IActionResult> Index()
+        /*public async Task<IActionResult> Index()
         {
             var lojaContext = _context.Desconto.Include(d => d.Venda);
             return View(await lojaContext.ToListAsync());
+        }*/
+        public async Task<IActionResult> Index(string searchString)
+        {
+            if (_context.Desconto == null)
+            {
+                return Problem("Tabela inexistente");
+            }
+            var descontos = from m in _context.Desconto select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                descontos = descontos.Where(s => s.Venda.BancoFinanciamento!.Contains(searchString));
+            }
+
+            return View(await descontos.ToListAsync());
         }
 
         // GET: Descontos/Details/5

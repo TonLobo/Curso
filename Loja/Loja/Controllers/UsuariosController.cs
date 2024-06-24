@@ -20,9 +20,20 @@ namespace Loja.Controllers
         }
 
         // GET: Usuarios
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Usuario.ToListAsync());
+            if (_context.Usuario == null)
+            {
+                return Problem("Tabela inexistente");
+            }
+            var usuario = from m in _context.Usuario select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                usuario = usuario.Where(s => s.Nome!.Contains(searchString));
+            }
+
+            return View(await usuario.ToListAsync());
         }
 
         // GET: Usuarios/Details/5

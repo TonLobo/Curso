@@ -20,9 +20,20 @@ namespace Loja.Controllers
         }
 
         // GET: Carros
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Carro.ToListAsync());
+            if (_context.Carro == null)
+            {
+                return Problem("Tabela inexistente");
+            }
+            var carros = from m in _context.Carro select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                carros = carros.Where(s => s.Marca!.Contains(searchString));
+            }
+
+            return View(await carros.ToListAsync());
         }
 
         // GET: Carros/Details/5
