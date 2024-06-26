@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Loja.Models
 {
@@ -9,21 +10,23 @@ namespace Loja.Models
         public Carro? Carro { get; set; }
         public int ClienteId { get; set; }
         public Cliente? Cliente { get; set; }
-        [Display(Name = "Valor da Venda")]
+        [Display(Name = "Qtd")]
+        public int Qtd { get; set; }
+        [Display(Name = "Venda")]
         public decimal ValorVenda { get; set; }
-        [Display(Name = "Valor da Entrada")]
+        [Display(Name = "Entrada")]
         public decimal? ValorEntrada { get; set; }
         [Display(Name = "A Vista")]
         public bool IsAVista { get; set; }
         public int? Parcelas { get; set; }
         [Display(Name = "Juros")]
         public decimal? ValorJuros { get; set; }
-        [Display(Name = "Financiamento")]
+        [Display(Name = "Banco")]
         public string? BancoFinanciamento { get; set; }
         public int VendedorId { get; set; }
         public Usuario? Vendedor { get; set; }
         [Display(Name = "Comissão")]
-        public decimal ComissaoVendedor { get; set; }
+        public decimal? ComissaoVendedor { get; set; }
         [Display(Name = "Entrega")]
         public DateTime? DataEntrega { get; set; }
     }

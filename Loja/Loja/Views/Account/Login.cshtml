@@ -17,4 +17,9 @@
     <button type="submit">Entrar</button>
 }
 
+@if(ViewBag.Fail != null)
+{
+    <div class="alert alert-danger ">Usuário ou Senha Incorretos!</div>
+}
+
 <p>@ViewBag.Message</p>

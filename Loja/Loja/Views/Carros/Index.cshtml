@@ -10,16 +10,22 @@
     <a asp-action="Create" class="btn btn-sm btn-success"> <i class="bi bi-person-plus"></i>Novo Carro</a>
 </p>
 
-<form asp-controller="Carros" asp-action="Index">
+@*<form asp-controller="Carros" asp-action="Index">
     <p>
         Marca: <input type="text" name="searchString" />
         <input type="submit" value="Filtrar" />
     </p>
 
 
-</form>
+</form>*@
 
-<table class="table">
+<div class="card">
+    <div class="card-header">Dados do Carro</div>
+</div>
+
+<br />
+
+<table id="myTable" class="table">
     <thead>
         <tr>
             <th>
@@ -71,11 +77,36 @@
                 <img src="@Url.Content("~/img/" + @item.Url)" alt="@item.Url" height="100px" />
              </td>
             <td>
-                    <a asp-action="Edit" asp-route-id="@item.CarroId" class="btn btn-sm btn-info"> <i class="bi bi-journal-text"></i>Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.CarroId" class="btn btn-sm btn-primary"> <i class="bi bi-pencil"></i>Detalhes</a> |
-                    <a asp-action="Delete" asp-route-id="@item.CarroId" class="btn btn-sm btn-danger"> <i class="bi bi-trash3"></i>Excluir</a>
+                 <a asp-action="Edit" asp-route-id="@item.CarroId" class="btn btn-sm btn-primary"> <i class="bi bi-pencil"></i>Editar</a>
+                 <a asp-action="Details" asp-route-id="@item.CarroId" class="btn btn-sm btn-info"> <i class="bi bi-journal-text"></i>Detalhes</a>
+                 <a asp-action="Delete" asp-route-id="@item.CarroId" class="btn btn-sm btn-danger"> <i class="bi bi-trash3"></i>Excluir</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        var table = new DataTable('#myTable', {
+            language: {
+                url: '//cdn.datatables.net/plug-ins/2.0.8/i18n/pt-BR.json',
+            },
+        });
+
+        const myTable = new DataTable('#myTable');
+
+        myTable.on('click', 'tbody tr', (e) => {
+            let classList = e.currentTarget.classList;
+
+            if (classList.contains('selected')) {
+                classList.remove('selected');
+            }
+            else {
+                myTable.rows('.selected').nodes().each((row) => row.classList.remove('selected'));
+                classList.add('selected');
+            }
+        });
+
+    </script>
+}

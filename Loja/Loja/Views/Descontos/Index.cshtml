@@ -7,20 +7,31 @@
 
 <h1>Desconto</h1>
 
+<div class="text-center">
+    <h1 class="display-4">Olá, @User?.Identity?.Name</h1>
+</div>
+
 <p>
     <a asp-action="Create" class="btn btn-sm btn-success"> <i class="bi bi-person-plus"></i>Novo Desconto</a>
 </p>
 
-<form asp-controller="Descontos" asp-action="Index">
+@*<form asp-controller="Descontos" asp-action="Index">
     <p>
         Banco: <input type="text" name="searchString" />
         <input type="submit" value="Filtrar" />
     </p>
 
 
-</form>
+</form>*@
 
-<table class="table">
+<div class="card">
+    <div class="card-header">Dados do Desconto</div>
+</div>
+
+<br />
+
+<table id="myTable" class="table">
+
     <thead>
         <tr>
             <th>
@@ -39,7 +50,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Venda.Cliente)
+                @Html.DisplayFor(modelItem => item.Venda.VendedorId)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ValorDesconto)
@@ -48,11 +59,23 @@
                 @Html.DisplayFor(modelItem => item.Aprovado)
             </td>
             <td>
-                    <a asp-action="Edit" asp-route-id="@item.DescontoId" class="btn btn-sm btn-info"> <i class="bi bi-journal-text"></i>Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.DescontoId" class="btn btn-sm btn-primary"> <i class="bi bi-pencil"></i>Detalhes</a> |
+                    <a asp-action="Edit" asp-route-id="@item.DescontoId" class="btn btn-sm btn-primary"> <i class="bi bi-pencil"></i>Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.DescontoId" class="btn btn-sm btn-info"> <i class="bi bi-journal-text"></i>Detalhes</a>
                     <a asp-action="Delete" asp-route-id="@item.DescontoId" class="btn btn-sm btn-danger"> <i class="bi bi-trash3"></i>Excluir</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        var table = new DataTable('#myTable',
+            {
+                language:
+                {
+                    url: '//cdn.datatables.net/plug-ins/2.0.8/i18n/pt-BR.json',
+                },
+            });
+    </script>
+}

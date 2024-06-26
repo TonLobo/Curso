@@ -4,16 +4,15 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
+using Loja.Models;
+using Microsoft.Identity.Client;
 
 public class AccountController : Controller
 {
-    private readonly LojaContext _context;
-
-    public AccountController(LojaContext context)
-    {
-        _context = context;
-    }
-
     [HttpGet]
     public IActionResult Login()
     {
@@ -21,44 +20,80 @@ public class AccountController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Login(string user, string senha)
+    public async Task<IActionResult> Login(string username, string password)
     {
-        var usuario = await _context.Usuario.SingleOrDefaultAsync(u => u.Username == user && u.Password == senha);
-        if (usuario != null)
+        // Validação do usuário (exemplo simples)
+        if (username == "emusk" && password == "teste123")
         {
-            // Definir cookies de autenticação ou usar Identity
-            HttpContext.Session.SetString("UsuarioId", usuario.UsuarioId.ToString());
-            HttpContext.Session.SetString("Role", usuario.Role);
-            return RedirectToAction("Index", "Home");
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, username),
+                new Claim(ClaimTypes.Role, "username")
+            };
+
+            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var authProperties = new AuthenticationProperties
+            {
+                IsPersistent = true
+            };
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
+            return RedirectToAction("Index", "Descontos");
         }
-        ModelState.AddModelError("", "Login inválido");
+
+        ModelState.AddModelError(string.Empty, "Sem Permissão. Entre em contato com o Administrador.");
         return View();
     }
 
-    public IActionResult Logout()
+    /*public async Task<IActionResult> Login([FromForm] LoginModel loginModel)
     {
-        HttpContext.Session.Clear();
-        return RedirectToAction("Login");
-    }
-}
-
-// Exemplo de filtro de autorização
-public class AuthorizeRoleAttribute : AuthorizeAttribute
-{
-    private readonly string _role;
-
-    public AuthorizeRoleAttribute(string role)
-    {
-        _role = role;
-    }
-
-    public virtual void OnAuthorization(AuthorizationFilterContext context)
-    {
-        var role = context.HttpContext.Session.GetString("Role");
-        if (role != _role)
+        if (loginModel.Username != "admin" || 
+            loginModel.Password != "admin")
+            {
+                ViewBag.Fail = true;
+        
+                 return View();
+            }
+        //simulando um usuário 
+        var user = new
         {
-            context.Result = new ForbidResult();
+            Id = Guid.NewGuid(),
+            Name = "Administrador"
+        };
+
+        List<Claim> claims =
+            [
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Name, user.Name)
+            ];
+        var authScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+
+        var identity = new ClaimsIdentity(claims, authScheme);
+        var principal = new ClaimsPrincipal(identity);
+
+        await HttpContext.SignInAsync(authScheme, principal, new AuthenticationProperties
+        {
+            IsPersistent = loginModel.Equals(loginModel)
+        });
+
+        if(!String.IsNullOrWhiteSpace(loginModel.Password))
+        {
+            return Redirect(loginModel.Password);
         }
+
+        return RedirectToRoute("Desconto.Index");
     }
-    
+
+    public async Task<IActionResult> Logout()
+    {
+        await HttpContext.SignOutAsync();
+        return RedirectToRoute("Auth.Login");
+    }*/
+
+    public async Task<IActionResult> Logout()
+    {
+        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        return RedirectToAction("Index", "Home");
+    }
 }

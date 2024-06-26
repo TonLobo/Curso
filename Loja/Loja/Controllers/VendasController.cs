@@ -22,12 +22,12 @@ namespace Loja.Controllers
 
         // GET: Vendas
 
-        /*public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
             var lojaContext = _context.Venda.Include(v => v.Carro).Include(v => v.Cliente).Include(v => v.Vendedor);
             return View(await lojaContext.ToListAsync());
-        }*/
-        public async Task<IActionResult> Index(DateTime? startDate, DateTime? endDate)
+        }
+        /*public async Task<IActionResult> Index(DateTime? startDate, DateTime? endDate)
         {
             var vendas = from m in _context.Venda select m; //select * from movie
 
@@ -41,7 +41,7 @@ namespace Loja.Controllers
             }
 
             return View(await vendas.ToListAsync());
-        }
+        }*/
 
         // GET: Vendas/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -82,9 +82,15 @@ namespace Loja.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(venda);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                var carro = _context.Carro.Find(venda.CarroId);
+                if (carro != null && carro.Estoque >= venda.Qtd)
+                {
+                    carro.Estoque -= venda.Qtd;
+                    _context.Venda.Add(venda);
+                    _context.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                ModelState.AddModelError("", "Quantidade insuficiente em estoque.");
             }
             ViewData["CarroId"] = new SelectList(_context.Carro, "CarroId", "CarroId", venda.CarroId);
             ViewData["ClienteId"] = new SelectList(_context.Cliente, "ClienteId", "ClienteId", venda.ClienteId);

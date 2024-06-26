@@ -3,56 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\views\\vendas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\views\\vendas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\models\\desconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\models\\desconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\views\\carros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\views\\carros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\views\\descontos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\views\\descontos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\controllers\\descontoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\controllers\\descontoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\controllers\\carroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\controllers\\carroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|c:\\users\\user\\desktop\\aspmvc\\loja\\loja\\views\\descontos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28214405-8023-441A-B653-98FAB9FD5E16}|Loja\\Loja.csproj|solutionrelative:loja\\views\\descontos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Models\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Loja\\Models\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -79,160 +63,111 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Loja\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Loja\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwDEAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T01:07:05.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VendasController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\VendasController.cs",
-              "RelativeDocumentMoniker": "Loja\\Controllers\\VendasController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\VendasController.cs",
-              "RelativeToolTip": "Loja\\Controllers\\VendasController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAA5wFQAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T21:40:53.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Loja\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Loja\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T01:53:45.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Loja\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Loja\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T01:04:17.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Loja\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Loja\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAB5AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T01:01:02.394Z"
+              "WhenOpened": "2024-06-26T16:17:31.697Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "Loja\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "Loja\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Descontos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Loja\\Views\\Descontos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Descontos\\Index.cshtml",
+              "RelativeToolTip": "Loja\\Views\\Descontos\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T00:59:32.883Z"
+              "WhenOpened": "2024-06-26T16:11:34.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Clientes\\Index.cshtml",
-              "RelativeDocumentMoniker": "Loja\\Views\\Clientes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Clientes\\Index.cshtml",
-              "RelativeToolTip": "Loja\\Views\\Clientes\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Loja\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Loja\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:46:58.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Loja\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Loja\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T00:58:54.063Z"
+              "WhenOpened": "2024-06-26T22:15:12.01Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Vendas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Loja\\Views\\Vendas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Vendas\\Index.cshtml",
-              "RelativeToolTip": "Loja\\Views\\Vendas\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T21:52:50.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Loja\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Loja\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "Desconto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Models\\Desconto.cs",
+              "RelativeDocumentMoniker": "Loja\\Models\\Desconto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Models\\Desconto.cs",
+              "RelativeToolTip": "Loja\\Models\\Desconto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T01:41:14.628Z"
+              "WhenOpened": "2024-06-26T22:59:28.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Carros\\Index.cshtml",
-              "RelativeDocumentMoniker": "Loja\\Views\\Carros\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Carros\\Index.cshtml",
-              "RelativeToolTip": "Loja\\Views\\Carros\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T00:58:40.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "DescontosController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\DescontosController.cs",
               "RelativeDocumentMoniker": "Loja\\Controllers\\DescontosController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\DescontosController.cs",
               "RelativeToolTip": "Loja\\Controllers\\DescontosController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA+wCsAAABLAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T00:52:47.435Z"
+              "WhenOpened": "2024-06-26T15:29:29.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Descontos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Loja\\Views\\Descontos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Views\\Descontos\\Index.cshtml",
-              "RelativeToolTip": "Loja\\Views\\Descontos\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T00:48:10.287Z"
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Loja\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Loja\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwC4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:15:29.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CarrosController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\CarrosController.cs",
-              "RelativeDocumentMoniker": "Loja\\Controllers\\CarrosController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Controllers\\CarrosController.cs",
-              "RelativeToolTip": "Loja\\Controllers\\CarrosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Models\\Startup.cs",
+              "RelativeDocumentMoniker": "Loja\\Models\\Startup.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Models\\Startup.cs",
+              "RelativeToolTip": "Loja\\Models\\Startup.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T21:40:46.47Z"
+              "WhenOpened": "2024-06-26T15:25:10.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Program.cs",
+              "RelativeDocumentMoniker": "Loja\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\AspMVC\\Loja\\Loja\\Program.cs",
+              "RelativeToolTip": "Loja\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:12:04.486Z"
             }
           ]
         }

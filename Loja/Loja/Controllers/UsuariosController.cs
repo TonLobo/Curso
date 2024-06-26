@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Loja.Data;
 using Loja.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Loja.Controllers
 {
+    [Authorize(Policy = "RequireAdministratorRole")]
     public class UsuariosController : Controller
     {
         private readonly LojaContext _context;

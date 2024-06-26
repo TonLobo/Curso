@@ -10,7 +10,7 @@
     <a asp-action="Create" class="btn btn-sm btn-success"> <i class="bi bi-person-plus"></i>Nova Venda</a>
 </p>
 
-<form asp-controller="Vendas" asp-action="Index" method="get">
+@*<form asp-controller="Vendas" asp-action="Index" method="get">
 
     <label>Data Inicial</label>
     <input type="date" name="startDate" class="form-control" />
@@ -23,9 +23,15 @@
     <input type="submit" value="filtrar" class="btn btn-sm btn-primary" />
 
 
-</form>
+</form>*@
 
-<table class="table">
+<div class="card">
+    <div class="card-header">Dados da Venda</div>
+</div>
+
+<br />
+
+<table id="myTable" class="table">
     <thead>
         <tr>
             <th>
@@ -33,6 +39,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qtd)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.ValorVenda)
@@ -65,48 +74,62 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Carro.CarroId)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Cliente.ClienteId)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ValorVenda)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ValorEntrada)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IsAVista)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Parcelas)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ValorJuros)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.BancoFinanciamento)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Vendedor.Nome)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ComissaoVendedor)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DataEntrega)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.VendaId" class="btn btn-sm btn-info"> <i class="bi bi-journal-text"></i>Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.VendaId" class="btn btn-sm btn-primary"> <i class="bi bi-pencil"></i>Detalhes</a> |
-                    <a asp-action="Delete" asp-route-id="@item.VendaId" class="btn btn-sm btn-danger"> <i class="bi bi-trash3"></i>Excluir</a>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carro.Modelo)
             </td>
-        </tr>
-}
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qtd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorVenda)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorEntrada)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAVista)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parcelas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorJuros)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BancoFinanciamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vendedor.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ComissaoVendedor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataEntrega)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.VendaId" class="btn btn-sm btn-primary"> <i class="bi bi-pencil"></i></a>
+                    <a asp-action="Details" asp-route-id="@item.VendaId" class="btn btn-sm btn-info"> <i class="bi bi-journal-text"></i></a>
+                    <a asp-action="Delete" asp-route-id="@item.VendaId" class="btn btn-sm btn-danger"> <i class="bi bi-trash3"></i></a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        var table = new DataTable('#myTable',
+            {
+                language:
+                {
+                    url: '//cdn.datatables.net/plug-ins/2.0.8/i18n/pt-BR.json',
+                },
+            });
+    </script>
+}
